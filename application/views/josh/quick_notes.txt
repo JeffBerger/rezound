@@ -1,0 +1,29 @@
+Color of logo Z:	#e75d09
+
+
+
+To see delineations b/w adjacent divs when looping:			background-color:#<?php echo $i;?>c<?php echo $i;?>c<?php echo $i;?>c
+
+To output text within a js function, follow this approach:	$('body').prepend('<div>' + $(this).width() + " " + cont_num + '</div>');
+
+To output HTML within a js function, follow:				$('#band_inner_container').append('html content');
+	ALERT:			other js functions have difficulty recognizing the id/class labels within the HTML output this way
+	CURRENT FIX:	wrap js function in function(){} declaration, then call function
+	
+	
+Single-line conditional in JS:		test_condition ? true_statement : false_statement
+	equivalent to:		if (test_condition)
+							true_statement;
+						else
+							false_statement;
+							
+
+
+Backbone.js:
+~~~~~~~~~~~
+
+To get around scope limitations on "this":									var that = this;
+
+To cancel any normal processes from proceeding in a given function:			return false;
+
+

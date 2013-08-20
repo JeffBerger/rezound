@@ -1,0 +1,1 @@
+<p>You just signed up!  Please check your email for a link to verify your account.  Check your spam folder if you don't see it.</p>

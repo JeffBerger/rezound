@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>Demo</title>
+</head>
+
+<body>
+
+<a href="http://jquery.com/">jQuery</a>
+
+<a id="link2" href="http://www.google.com">Try a 2nd link</a>
+
+<script src="http://www.westphalianarms.com/ReZound/scripts/jquery-2.0.2.min.js"></script>
+<script src="http://www.westphalianarms.com/ReZound/scripts/jquery-ui-1.10.3.custom.min.js"></script>
+
+<script>
+
+
+$( document ).ready(function() {	// script available as soon as page can be manipulated
+	$( "a" ).click(function( event ) {	// executed upon clicking EACH link
+//		alert( "Thanks for visiting!" );	// code to be executed (pops up box)
+		event.preventDefault();		// prevents default behavior (in this case, going to link location)
+//		$( this ).hide( "slow" );	// hides the link
+	});
+	$("#link2").click(function(event){
+		event.preventDefault();
+		$(this).effect("highlight", {}, 500);	// omitted possible 4th argument for callback function
+		$(this).effect("size", {to:{width:300, height:10}}, 5000);	// evidently the 3rd argument governs how long the effect takes
+	});
+
+});
+
+
+
+
+</script>
+
+</body>
+</html>

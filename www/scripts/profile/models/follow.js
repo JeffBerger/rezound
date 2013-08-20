@@ -1,0 +1,1 @@
+Profile.Models.Follow = Backbone.Model.extend({ });

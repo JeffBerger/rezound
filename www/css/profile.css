@@ -1,0 +1,70 @@
+#activity{
+	width:700px;
+	height:500px;
+	padding:10px;
+	border:5px solid gray;
+	margin:75px;
+	float:right;
+	}
+
+#friends{
+	width:700px;
+	height:300px;
+	padding:10px;
+	border:5px solid gray;
+	margin:75px;
+	float:right;
+	}
+
+#img{
+	margin: 2px;
+	height: 250px;
+	width: 197px;
+	float:left;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-right:75px;
+	margin-left:50px;
+	}
+	
+#img_library{
+	margin:2px;
+	height:100px;
+	width:150px;
+	float:left;
+	margin-top:50px;
+	margin-bottom:25px;
+	margin-right:75px;
+	margin-left:50px;
+	}
+	
+#icon_cog{
+	margin:2px;
+	float:left;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-right:75px;
+	margin-left:50px;
+}
+
+#icon_music{
+	margin:2px;
+	float:left;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-right:75px;
+	margin-left:50px;
+}
+
+#icon_wrench{
+	margin:2px;
+	float:left;
+	margin-top:25px;
+	margin-bottom:50px;
+	margin-right:75px;
+	margin-left:50px;
+}
+
+.clear{
+	clear:both;
+}

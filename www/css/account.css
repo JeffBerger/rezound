@@ -1,0 +1,15 @@
+#wrap {
+   width:65%;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   
+}
+#right_col {
+   float:right;
+   
+}
+.clear {
+	clear:both;
+}

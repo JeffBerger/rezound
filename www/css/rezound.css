@@ -1,0 +1,100 @@
+li.navigation{
+	padding: 0px 25px;
+	float:right;
+	margin:0;
+}
+
+ul.navigation{
+	list-style-type:none;
+	float:right;
+	margin top:15px;
+}
+
+a.navigation{
+	text-decoration: none;
+	color:#C89870;
+	text-align: center;
+}
+
+a.navigation:hover{
+	color:white;
+}
+
+header{
+	background-color:#5e1818;
+	padding:1px;
+}
+
+header h1,h2, h3,h4{
+	display:inline-block;
+	margin:0;
+}
+
+header h4{
+	color:#C89870;
+	vertical-align: middle;
+}
+
+#postheader{
+	width:75%;
+	margin: 10px auto;
+	size:3px;
+	height: 3px;
+	color:#330099;
+	background-color: #330099;
+	clear:both;
+}
+
+
+#content{
+	width:1500px;
+	margin: 0 auto;
+}
+
+#leftbar{
+	display:inline-block;
+	width:290px;
+	margin: 10px;
+	background-color: #663131;
+}
+
+div#leftbar img{
+	margin:20px 20px 20px 20px;
+}
+
+div.newmusic img{
+	margin:20px 61px 20px 61px;
+}
+
+body{
+	background-color: #F5F5F5 ;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contentarea{
+	width: 800px;
+	display:inline-block;
+	padding: 20px;
+	margin: 10px;
+	border:2px solid #D0D0D0;
+	background-color: #F7FFDE;
+	min-height: 600px;
+	vertical-align: top;
+}
+
+footer{
+	background-color:#663131;
+	margin: 0;
+}
+
+#footercontent{
+	width:800px;
+	padding:5px 0px;
+	margin: 0 auto;
+	color:#E8E8E8;
+}
+
+#footercontent p {
+	margin: 0;
+}
