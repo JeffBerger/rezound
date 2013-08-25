@@ -58,7 +58,7 @@ if (defined('ENVIRONMENT'))
  */
 
 	$root_path = dirname(__FILE__).
-	$system_path = $root_path . '../system';
+	$system_path = $root_path . '/../system';
 
 /*
  *---------------------------------------------------------------
@@ -74,7 +74,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = $root_path . '../application';
+	$application_folder = $root_path . '/../application';
 
 /*
  * --------------------------------------------------------------------
