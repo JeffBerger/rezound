@@ -56,7 +56,9 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = $_SERVER['HOME'] . '/live/rezound/system';
+
+	$root_path = dirname(__FILE__).
+	$system_path = $root_path . '../system';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +74,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = $_SERVER['HOME'] . '/live/rezound/application';
+	$application_folder = $root_path . '../application';
 
 /*
  * --------------------------------------------------------------------
