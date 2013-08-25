@@ -10,3 +10,5 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
+
+alias err_log="sudo tail -f /var/log/httpd/error_log"

@@ -234,3 +234,92 @@ chmod -R 755 jeff/
 ll
 sudo vi /etc/httpd/conf/httpd.conf 
 sudo /etc/init.d/httpd restart
+git
+git config --list
+git config --global user.email "jeffrey.j.berger@gmail.com"
+--global user.name "JeffreyBerger"
+git config --global user.name "JeffreyBerger"
+git config --list
+su rezound
+git config --list
+ls
+git init
+git commit
+git add
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:JeffreyBerger/rezound.git
+git push -u origin master
+ssh-keygen -t rsa -C "jeffrey.j.berger@gmail.com"
+cd .ssh/
+cd ..
+xclip -sel clip < ~/.ssh/id_rsa.pub 
+cd .ssh/
+ls
+cat id_rsa.pub 
+cd ..
+git push -u origin master
+exit
+ps aux
+ps aux | grep sql
+mysql
+/etc/init.d/mysqld 
+/etc/init.d/mysqld stop
+sudo /etc/init.d/mysqld stop
+mysql
+sudo /etc/init.d/mysqld start
+sudo /etc/init.d/mysqld stop
+ps aux | grep mysql
+sudo /etc/init.d/mysqld start
+ps aux | grep mysql
+mysql
+mysql --user=root mysql
+netstat
+ipconfig
+ipconf
+ip
+df -h
+df
+pwd
+ps aux | grep mysql | awk '{print $2}'
+ls
+cd /
+find php.ini
+find php.ini .
+find .  php.ini
+find . -name php.ini
+cd etc/
+vi php.ini 
+sudo vi /etc/php.ini 
+sudo /etc/init.d/httpd restart
+cd /var/log/
+ls
+cp /home/jeff/application/controllers/git.php /home/rezound/application/controllers/
+sudo cp /home/jeff/application/controllers/git.php /home/rezound/application/controllers/
+sudo vi /etc/httpd/conf/httpd.conf 
+sudo /etc/init.d/httpd restart
+sudo vi /etc/httpd/conf/httpd.conf 
+sudo /etc/init.d/httpd restart
+ls
+pwd
+cd httpd/
+ls
+sudo cd httpd/
+ls
+ll
+ls
+pwd
+sudo vi /etc/php.ini 
+sudo /etc/init.d/httpd restart
+ls
+cd httpd/
+ll
+sudo chmod 755 httpd
+cd httpd/
+ls
+tail error_log
+cd ~
+vi .bash_profile 
+source .bash_profile 
+err_log
+exit
