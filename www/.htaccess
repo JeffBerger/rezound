@@ -1,6 +1,6 @@
 AuthName "Development Area" 
 AuthType Basic 
-AuthUserFile /home/jeff/.htpassword/htpwd
+AuthUserFile /.htpassword/htpwd
 AuthGroupFile /dev/null 
 require valid-user
 
