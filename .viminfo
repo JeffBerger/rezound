@@ -8,15 +8,18 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/short
+~MSle0~/error_log
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :q!
 :wq!
-:wq
 
 # Search String History (newest to oldest):
+?/error_log
+?/error
+?/log
 ?/short
 
 # Expression History (newest to oldest):
@@ -28,67 +31,127 @@
 # Registers:
 
 # File marks:
-'0  1010  4  /etc/httpd/conf/httpd.conf
-'1  1  0  /var/svn/repo/rezound/conf/passwd
-'2  343  18  /etc/php.ini
-'3  53  0  /etc/rc.d/init.d/httpd
-'4  5  6  /var/www/html/index.html
+'0  14  52  ~/.bash_profile
+'1  650  0  /etc/php.ini
+'2  1010  4  /etc/httpd/conf/httpd.conf
+'3  1  0  /var/svn/repo/rezound/conf/passwd
+'4  343  18  /etc/php.ini
+'5  53  0  /etc/rc.d/init.d/httpd
+'6  5  6  /var/www/html/index.html
 
 # Jumplist (newest first):
--'  1010  4  /etc/httpd/conf/httpd.conf
--'  1  0  /var/svn/repo/rezound/conf/passwd
--'  343  18  /etc/php.ini
--'  177  2  /etc/php.ini
--'  1  0  /etc/php.ini
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  1  0  /etc/httpd/conf/httpd.conf
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  343  18  /etc/php.ini
--'  177  2  /etc/php.ini
--'  1  0  /etc/php.ini
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  1  0  /var/svn/repo/rezound/conf/passwd
--'  343  18  /etc/php.ini
--'  177  2  /etc/php.ini
--'  1  0  /etc/php.ini
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  53  0  /etc/rc.d/init.d/httpd
--'  1  0  /etc/rc.d/init.d/httpd
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  5  6  /var/www/html/index.html
--'  1  0  /var/www/html/index.html
--'  343  18  /etc/php.ini
--'  177  2  /etc/php.ini
--'  1  0  /etc/php.ini
+-'  14  52  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  650  0  /etc/php.ini
+-'  641  1  /etc/php.ini
+-'  560  39  /etc/php.ini
+-'  551  62  /etc/php.ini
+-'  1464  10  /etc/php.ini
+-'  1369  21  /etc/php.ini
+-'  643  1  /etc/php.ini
+-'  642  6  /etc/php.ini
+-'  639  63  /etc/php.ini
+-'  637  6  /etc/php.ini
+-'  635  1  /etc/php.ini
+-'  633  63  /etc/php.ini
+-'  631  28  /etc/php.ini
+-'  629  1  /etc/php.ini
+-'  627  63  /etc/php.ini
+-'  625  29  /etc/php.ini
+-'  622  31  /etc/php.ini
+-'  618  31  /etc/php.ini
+-'  612  57  /etc/php.ini
+-'  611  50  /etc/php.ini
+-'  609  5  /etc/php.ini
+-'  608  68  /etc/php.ini
+-'  603  29  /etc/php.ini
+-'  602  41  /etc/php.ini
+-'  601  31  /etc/php.ini
+-'  599  8  /etc/php.ini
+-'  596  8  /etc/php.ini
+-'  595  70  /etc/php.ini
+-'  594  51  /etc/php.ini
+-'  592  6  /etc/php.ini
+-'  591  69  /etc/php.ini
+-'  585  47  /etc/php.ini
+-'  579  31  /etc/php.ini
+-'  578  2  /etc/php.ini
+-'  573  31  /etc/php.ini
+-'  571  25  /etc/php.ini
+-'  568  16  /etc/php.ini
+-'  567  79  /etc/php.ini
+-'  565  41  /etc/php.ini
+-'  563  4  /etc/php.ini
+-'  562  67  /etc/php.ini
+-'  558  4  /etc/php.ini
+-'  557  67  /etc/php.ini
+-'  552  31  /etc/php.ini
+-'  550  46  /etc/php.ini
+-'  548  16  /etc/php.ini
+-'  547  79  /etc/php.ini
+-'  541  54  /etc/php.ini
+-'  540  26  /etc/php.ini
+-'  539  17  /etc/php.ini
+-'  537  8  /etc/php.ini
+-'  536  71  /etc/php.ini
+-'  532  27  /etc/php.ini
+-'  531  21  /etc/php.ini
+-'  530  29  /etc/php.ini
+-'  528  13  /etc/php.ini
+-'  527  24  /etc/php.ini
+-'  525  26  /etc/php.ini
+-'  522  67  /etc/php.ini
+-'  520  0  /etc/php.ini
+-'  519  63  /etc/php.ini
+-'  515  32  /etc/php.ini
+-'  514  73  /etc/php.ini
+-'  513  44  /etc/php.ini
+-'  512  33  /etc/php.ini
+-'  504  37  /etc/php.ini
+-'  503  55  /etc/php.ini
+-'  502  41  /etc/php.ini
+-'  500  42  /etc/php.ini
+-'  499  28  /etc/php.ini
+-'  490  41  /etc/php.ini
+-'  489  51  /etc/php.ini
+-'  488  47  /etc/php.ini
+-'  487  37  /etc/php.ini
+-'  486  26  /etc/php.ini
+-'  478  12  /etc/php.ini
+-'  475  47  /etc/php.ini
+-'  650  0  /etc/php.ini
+-'  641  1  /etc/php.ini
+-'  560  39  /etc/php.ini
+-'  551  62  /etc/php.ini
+-'  1464  10  /etc/php.ini
+-'  1369  21  /etc/php.ini
+-'  643  1  /etc/php.ini
+-'  642  6  /etc/php.ini
+-'  639  63  /etc/php.ini
+-'  637  6  /etc/php.ini
+-'  635  1  /etc/php.ini
+-'  633  63  /etc/php.ini
+-'  631  28  /etc/php.ini
+-'  629  1  /etc/php.ini
+-'  627  63  /etc/php.ini
+-'  625  29  /etc/php.ini
+-'  622  31  /etc/php.ini
+-'  618  31  /etc/php.ini
+-'  612  57  /etc/php.ini
+-'  611  50  /etc/php.ini
+-'  609  5  /etc/php.ini
 
 # History of marks within files (newest to oldest):
+
+> ~/.bash_profile
+	"	14	52
+	^	14	53
+	.	14	52
+	+	14	52
+
+> /etc/php.ini
+	"	650	0
+	^	343	19
 
 > /etc/httpd/conf/httpd.conf
 	"	1010	4
@@ -100,10 +163,6 @@
 
 > /var/svn/repo/rezound/conf/passwd
 	"	1	0
-
-> /etc/php.ini
-	"	343	18
-	^	343	19
 
 > /etc/rc.d/init.d/httpd
 	"	53	0
