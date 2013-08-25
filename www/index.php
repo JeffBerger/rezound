@@ -57,7 +57,7 @@ if (defined('ENVIRONMENT'))
  *
  */
 
-	$root_path = dirname(__FILE__).
+	$root_path = dirname(__FILE__);
 	$system_path = $root_path . '/../system';
 
 /*
@@ -153,7 +153,7 @@ if (defined('ENVIRONMENT'))
 	// Is the system path correct?
 	if ( ! is_dir($system_path))
 	{
-		exit("Your system folder path $system_path  does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+		exit("Your system folder path $system_path with root path $root_path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
 	}
 
 /*
@@ -187,7 +187,7 @@ if (defined('ENVIRONMENT'))
 	{
 		if ( ! is_dir(BASEPATH.$application_folder.'/'))
 		{
-			exit("Your application folder path $application_folder  does not appear to be set correctly. Please open the following file and correct this: ".SELF);
+			exit("Your application folder path $application_folder with root path $root_path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
 		}
 
 		define('APPPATH', BASEPATH.$application_folder.'/');
