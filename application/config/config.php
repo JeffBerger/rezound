@@ -273,7 +273,7 @@ $config['sess_time_to_update']	= 300;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= "www.rezoundmusic.com";
+$config['cookie_domain']	= "rezoundmusic.com";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 

@@ -11,8 +11,8 @@
 ~MSle0~/error_log
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
 :q!
 :wq!
 
@@ -31,15 +31,19 @@
 # Registers:
 
 # File marks:
-'0  14  52  ~/.bash_profile
-'1  650  0  /etc/php.ini
-'2  1010  4  /etc/httpd/conf/httpd.conf
-'3  1  0  /var/svn/repo/rezound/conf/passwd
-'4  343  18  /etc/php.ini
-'5  53  0  /etc/rc.d/init.d/httpd
-'6  5  6  /var/www/html/index.html
+'0  1  0  ~/.kshrc
+'1  1  0  ~/.gitconfig
+'2  14  52  ~/.bash_profile
+'3  650  0  /etc/php.ini
+'4  1010  4  /etc/httpd/conf/httpd.conf
+'5  1  0  /var/svn/repo/rezound/conf/passwd
+'6  343  18  /etc/php.ini
+'7  53  0  /etc/rc.d/init.d/httpd
+'8  5  6  /var/www/html/index.html
 
 # Jumplist (newest first):
+-'  1  0  ~/.kshrc
+-'  1  0  ~/.gitconfig
 -'  14  52  ~/.bash_profile
 -'  1  0  ~/.bash_profile
 -'  650  0  /etc/php.ini
@@ -137,11 +141,14 @@
 -'  625  29  /etc/php.ini
 -'  622  31  /etc/php.ini
 -'  618  31  /etc/php.ini
--'  612  57  /etc/php.ini
--'  611  50  /etc/php.ini
--'  609  5  /etc/php.ini
 
 # History of marks within files (newest to oldest):
+
+> ~/.kshrc
+	"	1	0
+
+> ~/.gitconfig
+	"	1	0
 
 > ~/.bash_profile
 	"	14	52
