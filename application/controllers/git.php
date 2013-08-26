@@ -3,6 +3,7 @@
 class Git extends CI_Controller {
 
     public function index(){
+	echo "GIT";
 	error_log("GIT HAS BEEN FIRED");
 	error_log(print_r($_REQUEST,true));
     }
