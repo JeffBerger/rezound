@@ -4,7 +4,7 @@
 	<input type="hidden" id="verified" value="false">
 <?php endif;?>
 
-AUTO GITPULL SUCCESSSSZZD
+AUTO GITPULL SUCCESSSSZZDD
 
 <h1><i class="icon-group icon-large"></i> Bands</h1>
 
