@@ -11,7 +11,7 @@ class Git extends CI_Controller {
 	if($branch == "master"){
 		`cd /home/rezound/rezound`;
 		`git pull`;			
-	}else if($branch == "jeff"}{
+	}else if($branch == "jeff"){
 		`cd /home/jeff/live/rezound`;
 		`git pull`;
 	}
