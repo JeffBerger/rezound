@@ -1,4 +1,4 @@
-<p>Welcome to your profile page! Go to your <?php echo anchor("library/mylibrary","library") ?> or to your <?php echo anchor("account/account_details","Account Details") ?> page</p>
+<p>Welcome to your <b>profile page!</b> Go to your <?php echo anchor("account/account_details","Account Details") ?> page</p>
  	
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/profile.css">
