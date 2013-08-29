@@ -3,7 +3,7 @@ TEST
 X
 X
 X
-X
+XS
 X
 XXYAZ
 XXAA
