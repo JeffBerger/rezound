@@ -8,13 +8,13 @@ class Git extends CI_Controller {
 	$refarray = explode("/",$gitarray["ref"]);
 	$branch = $refarray[2];
 
-	if($branch == "master"){
-		`cd /home/rezound/rezound`;
+	//if($branch == "master"){
+	//	`cd /home/rezound/rezound`;
 		`git pull`;			
-	}else if($branch == "jeff"){
-		`cd /home/jeff/live/rezound`;
-		`git pull`;
-	}
+	//}else if($branch == "jeff"){
+	//	`cd /home/jeff/live/rezound`;
+	//	`git pull`;
+	//}
 
 		
     }
