@@ -7,7 +7,7 @@ X
 X
 XXY
 XX
-XXX
+XXXZ
 XXXX
 YY
 XXX
