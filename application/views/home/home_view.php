@@ -4,7 +4,7 @@
 	<input type="hidden" id="verified" value="false">
 <?php endif;?>
 
-A message
+Crush your enemies.  See them driven before you.  And hear the lamentation of their women.
 
 <h1><i class="icon-group icon-large"></i> Bands</h1>
 
