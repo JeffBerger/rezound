@@ -4,8 +4,6 @@
 	<input type="hidden" id="verified" value="false">
 <?php endif;?>
 
-AUTO GITPULL SUCCESS X2 X102
-
 <h1><i class="icon-group icon-large"></i> Bands</h1>
 
 <div id="band_container" style=margin:20px>

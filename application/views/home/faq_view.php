@@ -1,6 +1,10 @@
 <h2><i>Frequently Asked Questions</i></h2>
 
 
+<h4>Q:  "Do you want to metal?"</h4>
+<h4>A:  "I'll metal if you metal."</h4>
+
+
 <div id="faq">
 
 	<h3>Will I get in trouble for anything I do with the music I download?</h3>
