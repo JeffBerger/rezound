@@ -31,19 +31,26 @@ var Wallet = {
 	name : "This Walletl",
 	func : "Holding our cash",
 	money : 200,
-	makemoney : function(){
-		this.money = this.money + 1000;
+	makemoney : function(cash){
+		this.money = this.money + cash;
 	},
 	payrent : function(){
 		this.money = this.money - 750;
 	}
 };
 
-$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
-Wallet.makemoney();
-$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
+var KatsWallet = new Wallet();
+var JoshsWallet = new Wallet();
+
+$("#output").append("<p>Curently Wallet has " + Wallet.money + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
+Wallet.makemoney(1200);
+KatsWallet.makemoney(1500);
+JoshsWallet.makemoney(12);
+$("#output").append("<p>Curently Wallet has " + Wallet.money + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
 Wallet.payrent();
-$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
+KatsWallet.payrent();
+JoshsWallet.payrent();
+$("#output").append("<p>Curently Wallet has " + Wallet.money + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
 
 // $("#number").change(function(){
 
