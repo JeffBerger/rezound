@@ -27,6 +27,24 @@
 
 <script>
 
+var Wallet = {
+	name : "This Walletl",
+	func : "Holding our cash",
+	money : 200,
+	makemoney : function(){
+		this.money = this.money + 1000;
+	},
+	payrent : function(){
+		this.money = this.money - 750;
+	}
+};
+
+$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
+Wallet.makemoney();
+$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
+Wallet.payrent();
+$("#output").append("<p>Curently have " + Wallet.money + " dollars </p>");
+
 // $("#number").change(function(){
 
 // 	var idnumber = $("#number").val();
@@ -51,12 +69,11 @@
 
 //Step 1 is to create the model
 
-Test.Models.user_instance = new Test.Models.User( { id : 15000 }
-);
+// Test.Models.user_instance = new Test.Models.User( { id : 15000 } );
 
 //Step 2 is to create the view and link it to the model
 
-Test.Views.user_instance = new Test.Views.User( { model : Test.Models.user_instance });
+// Test.Views.user_instance = new Test.Views.User( { model : Test.Models.user_instance });
 
 //Step 3 - backbone does the rest!
 
