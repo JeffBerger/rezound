@@ -2,8 +2,6 @@
 
 <head>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
@@ -12,7 +10,9 @@
 <body>
 
 	<p>Choose a user ID to investigate</p>
-	<input type="number" name="id" id="number"/>
+
+	<input type="number" name="id" id="number" min="13286"/>
+
 	<div id="output"></div>
 
 </body>
@@ -20,12 +20,16 @@
 <script>
 
 $("#number").change(function(){
+
 	var idnumber = $("#number").val();
-	alert(idnumber);
+
 	$.get("../api/user/user_info/"+idnumber,function(data){
+
 		var string = JSON.stringify(data);
 		alert(string);
+		
 	});
+
 });
 
 </script>
