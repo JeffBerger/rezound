@@ -39,28 +39,28 @@
 // 	}
 // };
 
-function Wallet(){
-	this.name = "This Walletl";
-	this.func = "Holding our cash";
-	this.money = 200;
-	this.makemoney = function(cash){
-		this.money = this.money + cash;
-	};
-	this.payrent = function(){
-		this.money = this.money - 750;
-	};
-}
+// function Wallet(){
+// 	this.name = "This Walletl";
+// 	this.func = "Holding our cash";
+// 	this.money = 200;
+// 	this.makemoney = function(cash){
+// 		this.money = this.money + cash;
+// 	};
+// 	this.payrent = function(){
+// 		this.money = this.money - 750;
+// 	};
+// }
 
-var KatsWallet = new Wallet();
-var JoshsWallet = new Wallet();
+// var KatsWallet = new Wallet();
+// var JoshsWallet = new Wallet();
 
-$("#output").append("<p>Curently Wallet has " + 0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
-KatsWallet.makemoney(1500);
-JoshsWallet.makemoney(12);
-$("#output").append("<p>Curently Wallet has " +0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
-KatsWallet.payrent();
-JoshsWallet.payrent();
-$("#output").append("<p>Curently Wallet has " + 0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
+// $("#output").append("<p>Curently Wallet has " + 0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
+// KatsWallet.makemoney(1500);
+// JoshsWallet.makemoney(12);
+// $("#output").append("<p>Curently Wallet has " +0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
+// KatsWallet.payrent();
+// JoshsWallet.payrent();
+// $("#output").append("<p>Curently Wallet has " + 0 + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
 
 // $("#number").change(function(){
 
@@ -86,11 +86,13 @@ $("#output").append("<p>Curently Wallet has " + 0 + " dollars Kat has " + KatsWa
 
 //Step 1 is to create the model
 
-// Test.Models.user_instance = new Test.Models.User( { id : 15000 } );
+Test.Models.user_instance = new Test.Models.User( { id : 0 } );
+
+$("#number").change(function(){Test.Models.user.set({id : $("#number").val()})});
 
 //Step 2 is to create the view and link it to the model
 
-// Test.Views.user_instance = new Test.Views.User( { model : Test.Models.user_instance });
+Test.Views.user_instance = new Test.Views.User( { model : Test.Models.user_instance });
 
 //Step 3 - backbone does the rest!
 
