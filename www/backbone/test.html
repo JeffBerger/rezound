@@ -5,6 +5,14 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+
+	<script>
+		window.Test = {
+			Views = { },
+			Models = { }
+		};
+	</script>
+
 </head>
 
 <body>
@@ -19,20 +27,37 @@
 
 <script>
 
-$("#number").change(function(){
+// $("#number").change(function(){
 
-	var idnumber = $("#number").val();
+// 	var idnumber = $("#number").val();
 
-	$.get("../api/user/user_info/"+idnumber,function(data){
+// 	$.get("../api/user/user_info/"+idnumber,function(data){
 
-		var username = data.username;
-		var email = data.email;
+// 		var username = data.username;
+// 		var email = data.email;
 
-		$("#output").html("The user's name is " + username + " and their email is " + email);
+// 		$("#output").html("The user's name is " + username + " and their email is " + email);
 
-	});
+// 	});
 
-});
+// });
+
+</script>
+
+<script src="usermodel.js"></script>
+<script src="userview.js"></script>
+
+<script>
+
+//Step 1 is to create the model
+
+Test.Models.user_instance = new Test.Models.User( { id : $("#number").val();});
+
+//Step 2 is to create the view and link it to the model
+
+Test.Views.user_instance = new Test.Views.user( { model : Test.Models.user_instance});
+
+//Step 3 - backbone does the rest!
 
 </script>
 
