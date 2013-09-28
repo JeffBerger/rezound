@@ -8,8 +8,8 @@
 
 	<script>
 		window.Test = {
-			Views = { },
-			Models = { }
+			Views : { },
+			Models : { }
 		};
 	</script>
 
@@ -51,7 +51,8 @@
 
 //Step 1 is to create the model
 
-Test.Models.user_instance = new Test.Models.User( { id : $("#number").val();});
+Test.Models.user_instance = new Test.Models.User( { id : $("#number").val() }
+);
 
 //Step 2 is to create the view and link it to the model
 
