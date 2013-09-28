@@ -51,8 +51,8 @@ function Wallet(){
 	}
 }
 
-var KatsWallet = Wallet();
-var JoshsWallet = Wallet();
+var KatsWallet = new Wallet();
+var JoshsWallet = new Wallet();
 
 $("#output").append("<p>Curently Wallet has " + Wallet.money + " dollars Kat has " + KatsWallet.money + " and Josh has " + JoshsWallet.money + "</p>");
 Wallet.makemoney(1200);
