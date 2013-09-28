@@ -43,7 +43,7 @@ function Wallet(){
 	this.name = "This Walletl";
 	this.func = "Holding our cash";
 	this.money = 200;
-	function makemoney(cash){
+	this.makemoney = function(cash){
 		this.money = this.money + cash;
 	};
 	this.payrent = function(){
