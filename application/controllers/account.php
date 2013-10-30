@@ -120,17 +120,17 @@ class Account extends CI_Controller {
 	}
 	
 	public function profile(){
-		if ( $this->session->userdata('login_state') == FALSE ) {
-			redirect( "" );    // no session established, kick back to login page
-		}
-		if ( $this->session->userdata('is_artist')){
+		//if ( $this->session->userdata('login_state') == FALSE ) {
+		//	redirect( "" );    // no session established, kick back to login page
+		//}
+		//if ( $this->session->userdata('is_artist')){
 			$this->load->model("artist_model");
-			$user_id = $this->session->userdata("user_id");
+			$user_id = 10;//$this->session->userdata("user_id");
 			$view_passed["bands"] = $this->artist_model->get_bands($user_id);
 			$view_passed['content_path'] = 'account_artist/profile_view';
-		}else{
-			$view_passed['content_path'] = 'account_user/profile_view';
-		}
+		//}else{
+		//	$view_passed['content_path'] = 'account_user/profile_view';
+		//}
 		$this->load->view('template/general_template_view',$view_passed);
 		
 		

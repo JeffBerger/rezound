@@ -4,6 +4,10 @@ Test.Models.User = Backbone.Model.extend({
 
 	initialize : function(){
 		this.fetch();
-	}
+	},
+
+	totalSongs : function(){
+		//Add up the songs the user has
+	},
 
 });
